@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1001578731557",
+    "firebase_url": "https://findyourlecture-5f45f.firebaseio.com",
+    "project_id": "findyourlecture-5f45f",
+    "storage_bucket": "findyourlecture-5f45f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001578731557:android:7c60623b0e678863c987cc",
+        "android_client_info": {
+          "package_name": "example.com.FindYourLecturer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001578731557-gn45t0cqoldf2l01b1h0q2l5e20c0l4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxfHVZfTTGVLGWZm6SeDNH0t0joQDJvJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001578731557-gn45t0cqoldf2l01b1h0q2l5e20c0l4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

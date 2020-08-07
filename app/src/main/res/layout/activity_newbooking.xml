@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/bookingArea"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nameTitle"
+                android:text="Name:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/nameArea"
+                android:layout_below="@id/nameTitle"
+                android:background="@drawable/white_rectangle"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/matricTitle"
+                android:layout_below="@id/nameArea"
+                android:layout_marginTop="20dp"
+                android:text="Matric Number:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/matricArea"
+                android:layout_below="@id/matricTitle"
+                android:background="@drawable/white_rectangle"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/phoneTitle"
+                android:layout_below="@id/matricArea"
+                android:layout_marginTop="20dp"
+                android:text="Phone Number:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/phoneArea"
+                android:layout_below="@id/phoneTitle"
+                android:background="@drawable/white_rectangle"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:inputType="phone"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/dateTitle"
+                android:layout_below="@id/phoneArea"
+                android:layout_marginTop="20dp"
+                android:text="Appointment Date:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/dateArea"
+                android:layout_below="@id/dateTitle"
+                android:background="@drawable/white_rectangle"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:focusable="false"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/timeTitle"
+                android:layout_below="@id/dateArea"
+                android:layout_marginTop="20dp"
+                android:text="Appointment Time:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/timeArea"
+                android:layout_below="@id/timeTitle"
+                android:background="@drawable/white_rectangle"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:focusable="false"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/timeReminder"
+                android:layout_below="@id/timeArea"
+                android:text="*15 minutes for each slot"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/reasonTitle"
+                android:layout_below="@id/timeReminder"
+                android:layout_marginTop="20dp"
+                android:text="Title:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/reasonArea"
+                android:layout_below="@id/reasonTitle"
+                android:background="@drawable/white_rectangle"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:maxLines="3"
+                android:textColor="@color/colorBlack"
+                android:inputType="textCapSentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_below="@id/reasonArea"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:layout_centerHorizontal="true"
+                android:text="Confirm"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/blue_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

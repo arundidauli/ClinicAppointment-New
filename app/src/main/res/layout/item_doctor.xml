@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/white_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/doctorImage"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/doctorNameArea"
+            android:layout_toRightOf="@id/doctorImage"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Doctor Name:"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/doctorName"
+            android:layout_below="@id/doctorNameArea"
+            android:layout_toRightOf="@id/doctorImage"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/doctorIDArea"
+            android:layout_toRightOf="@id/doctorImage"
+            android:layout_below="@+id/doctorName"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Doctor ID:"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/doctorID"
+            android:layout_below="@id/doctorIDArea"
+            android:layout_toRightOf="@id/doctorImage"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

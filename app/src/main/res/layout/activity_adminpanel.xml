@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/adminTitleArea"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/white_rectangle">
+
+        <TextView
+            android:id="@+id/adminTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Lecturer Main"
+            android:textColor="#005DAB"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/appointmentAR"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Appointment"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/editInfo"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/appointmentAR"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="History"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/editDoctor"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/editInfo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="My Schedule"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/adminSignOut"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/editDoctor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/blue_button"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Log Out"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Find Your Lecturer App</string>
+    <string name="clinic_intro">UNIMAS Clinic is located at Lower Ground Floor, Student Affairs and Alumni Building in West Campus. This unit provides medical and health care services to all UNIMAS staff and students.</string>
+    <string name="help_intro">If you are facing any problem, please do not hesitate to call or email us.</string>
+
+    <string-array name="time_choice">
+        <item>8:08 AM</item>
+        <item>9:08 AM</item>
+        <item>10:08 AM</item>
+        <item>11:08 AM</item>
+        <item>1:08 PM</item>
+        <item>2:08 PM</item>
+        <item>3:08 PM</item>
+        <item>4:08 PM</item>
+        <item>4:15 PM</item>
+        <item>4:30 PM</item>
+        <item>4:45 PM</item>
+    </string-array>
+
+</resources>
